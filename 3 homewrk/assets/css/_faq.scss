@@ -1,0 +1,53 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 100px 130px;
+    background: #E5E5E5;
+
+    h2 {
+        font-weight: 400;
+        font-size: 32px;
+        color: #222222;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 15px;
+        color: #222222;
+    }
+    span {
+        font-weight: 400;
+        font-size: 18px;
+        color: #222222;
+    }
+
+    .bottom_faq {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-top: 40px;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            p {
+                max-width: 576px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .faq {
+        padding: 100px 50px;
+        align-items: center;
+
+        .bottom_faq {
+            justify-content: center;
+        }
+    }
+ }

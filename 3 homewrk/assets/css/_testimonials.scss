@@ -1,0 +1,87 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    background: #F2F2F2;
+    color: #222222;
+
+    h5 {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 32px;
+    }
+    p {
+        font-size: 18px;
+        color: #666666;
+        margin-top: 14px;
+        margin-bottom: 40px;
+    }
+
+    .test_cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+
+        .test_card {
+            background: #FFFFFF;
+            padding: 30px;
+            border-radius: 20px;
+
+            p {
+                font-size: 16px;
+                max-width: 312px;
+                margin-bottom: 20px;
+            }
+
+            .tester {
+                display: flex;
+                gap: 10px;
+            }
+
+            .tester_img {
+                width: 48px;
+                height: 48px;
+            }
+        }
+    }
+}
+
+
+.download {
+    padding: 100px 50px 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    color: #222222;
+
+    h5 {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #666666;
+        max-width: 598px;
+        text-align: center;
+        margin-top: 14px;
+    }
+
+    .download_img {
+        cursor: pointer;
+        margin-top: 27px;
+    }
+}

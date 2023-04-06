@@ -1,0 +1,102 @@
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    h3 {
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 400;
+    }
+    h2 {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 400;
+    }
+    p {
+        max-width: 568px;
+        text-align: center;
+        color: #666666;
+        font-size: 18px;
+        margin-top: 14px;
+    }
+
+    .pricing_cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 40px;
+
+        .prc_card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 100px;
+            background: #F2F2F2;
+            border-radius: 20px;
+            color: #0278ED;
+            cursor: pointer;
+
+            &:hover {
+                background-color:yellow;
+            }
+
+            h5 {
+                font-size: 18px;
+                text-align: center;
+            }
+            span {
+                font-size: 108px;
+            }
+            h4 {
+                font-size: 14px;
+                color: #222222;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            button {
+                padding: 10px 25px;
+                background: #0278ED;
+                border-radius: 4px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                font-size: 14px;
+                outline: none;
+                border: none;
+
+                &:hover {
+                    background-color:rgb(255, 0, 0);
+                }
+            }
+        }
+
+        .prc_card:nth-of-type(2) {
+            color: #FF5437;
+
+            button {
+                color: #FFFFFF;
+                background-color: #FF5437;
+
+                &:hover {
+                    background-color:rgb(0, 47, 255);
+                }
+            }
+        }
+
+        .prc_card:nth-of-type(3) {
+            color: #FF9209;
+
+            button {
+                color: #FFFFFF;
+                background-color: #FF9209;
+
+                &:hover {
+                    background-color:rgb(0, 47, 255);
+                }
+            }
+        }
+    }
+}
